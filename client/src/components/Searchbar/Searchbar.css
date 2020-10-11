@@ -1,0 +1,8 @@
+.card{
+    border-style: solid;
+}
+
+.searchBar{
+    display: inline-flex;
+    justify-content: center;
+}
