@@ -1,8 +1,8 @@
-.card{
+#searchBoxContainer{
     border-style: solid;
 }
 
 .searchBarBox{
     display: flex;
     justify-content: center;
-}
+   }

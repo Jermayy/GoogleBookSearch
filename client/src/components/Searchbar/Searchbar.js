@@ -2,7 +2,7 @@ import React from 'react';
 import './Searchbar.css';
 export const Searchbar = () => {
     return (
-        <div className="card">
+        <div className="card" id="searchBoxContainer">
   <div className="card-content">
 <p className="title">Search</p>
 

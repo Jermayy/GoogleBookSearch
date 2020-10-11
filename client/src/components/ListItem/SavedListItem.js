@@ -2,19 +2,19 @@ import React from 'react';
 import './ListItem.css';
 import PlaceholderImg from '../../utils/images/placeimg_500_500_any.jpg';
 
-export const ResultListItem =()=>{
+export const SavedListItem =()=>{
 
     return(
 
         <div className="card listItem" >
-        <div className="card-content">
+        <div className="card-content" >
        
        <span className="level">  
            <p className="level-item level-left"> Result List Item</p> 
 
         <div className="level-right">   
            <button className="button is-info level-item">View</button>
-           <button className="button is-success level-item">Save</button>
+           <button className="button is-danger level-item">Delete</button>
         </div>
        </span>
 

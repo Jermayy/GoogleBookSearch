@@ -1,5 +1,5 @@
-#listItem{
-    border: solid,black;
+.listItem{
+    border: solid;
     margin: 1vh;
 }
 .img{
