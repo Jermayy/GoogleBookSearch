@@ -1,0 +1,18 @@
+#listItem{
+    border: solid,black;
+    margin: 1vh;
+}
+.img{
+    max-width: 25vh;
+    height: auto;
+    margin: 1vh;
+}
+
+.listText{
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 40vw;
+    height: auto;
+    margin: 1vh;
+}
