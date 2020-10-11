@@ -6,9 +6,9 @@ export const Searchbar = () => {
   <div className="card-content">
 <p className="title">Search</p>
 
-    <container className="searchBar">
-        <input put className="input is-rounded is-info" type="text" placeholder="Search Books..."></input>
-        <input className="button is-warning" type="submit" value="Search"></input>
+    <container className="searchBarBox">
+        <input put className="input is-rounded is-info" type="text" placeholder="Search Books..." id="searchBar"></input>
+        <input className="button is-warning" type="submit" value="Search" id="searchButton"></input>
     </container>
   </div>
   

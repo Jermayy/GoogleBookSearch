@@ -2,7 +2,7 @@
     border-style: solid;
 }
 
-.searchBar{
-    display: inline-flex;
+.searchBarBox{
+    display: flex;
     justify-content: center;
 }
