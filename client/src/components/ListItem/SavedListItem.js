@@ -10,7 +10,7 @@ export const SavedListItem =()=>{
         <div className="card-content" >
        
        <span className="level">  
-           <p className="level-item level-left"> Result List Item</p> 
+           <p className="level-item level-left"> Saved List Item</p> 
 
         <div className="level-right">   
            <button className="button is-info level-item">View</button>
