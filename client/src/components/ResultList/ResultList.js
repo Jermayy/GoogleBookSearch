@@ -1,14 +1,10 @@
 import React from 'react';
 import {ResultListItem} from '../ListItem/ResultListItem'
-export const ResultList =()=>{
+export const ResultList =(props)=>{
     
     
     
     return(
-<div>
-        <ResultListItem/>
-        <ResultListItem/>
-        <ResultListItem/>
-        </div>
+<div>{props.children}</div>
     )
 }
