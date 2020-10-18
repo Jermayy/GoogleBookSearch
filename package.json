@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^4.1.0",
+    "concurrently": "^5.3.0",
     "nodemon": "^1.18.7"
   },
   "dependencies": {
@@ -27,6 +27,8 @@
     "bulma-extensions": "^6.2.7",
     "bulma-start": "0.0.4",
     "express": "^4.16.3",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "react-15": "^0.2.0",
+    "react-router-dom": "^5.2.0"
   }
 }

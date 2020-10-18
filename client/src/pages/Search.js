@@ -55,7 +55,7 @@ return(
                 image = {book.volumeInfo.imageLinks.thumbnail}
                 link = {book.volumeInfo.canonicalVolumeLink}
                 title = {book.volumeInfo.title}
-                author = {book.volumeInfo.authors[0]}
+                author = {book.volumeInfo.authors}
                 description = {book.volumeInfo.description}
                 />
     ))}
