@@ -13,7 +13,7 @@ export const ResultListItem =({image,link,title,author,description})=>{
            <h1 className="level-item level-left" > {title}</h1> 
            <p className="level-item level-left">Author: {author}</p>
         <div className="level-right">   
-           <a href={link}><button className="button is-info level-item" >View</button></a>
+           <a href={link} target="_blank"><button className="button is-info level-item" >View</button></a>
            <button className="button is-success level-item">Save</button>
         </div>
        </span>
